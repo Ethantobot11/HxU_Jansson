@@ -5,7 +5,7 @@ package jansson;
 
 @:include("jansson.h")
 @:native("json_error_t")
-@:valueType
+@:structAccess
 extern class Json_error_t {
     @:include("jansson.h")
     public var line:Int;
